@@ -1,0 +1,383 @@
+[
+  {
+    "hiragana": "あ",
+    "romaji": "a",
+    "english": "(as in father)"
+  },
+  {
+    "hiragana": "い",
+    "romaji": "i",
+    "english": "(as in machine)"
+  },
+  {
+    "hiragana": "う",
+    "romaji": "u",
+    "english": "(as in rule, but unrounded)"
+  },
+  {
+    "hiragana": "え",
+    "romaji": "e",
+    "english": "(as in bed)"
+  },
+  {
+    "hiragana": "お",
+    "romaji": "o",
+    "english": "(as in core)"
+  },
+
+  {
+    "hiragana": "あ, い, う, え, お",
+    "romaji": "a, i, u, e, o",
+    "english": "(as in father, machine, rule, bed, core)"
+  },
+  {
+    "hiragana": "か",
+    "romaji": "ka",
+    "english": "-"
+  },
+  {
+    "hiragana": "き",
+    "romaji": "ki",
+    "english": "-"
+  },
+  {
+    "hiragana": "く",
+    "romaji": "ku",
+    "english": "-"
+  },
+  {
+    "hiragana": "け",
+    "romaji": "ke",
+    "english": "-"
+  },
+  {
+    "hiragana": "こ",
+    "romaji": "ko",
+    "english": "-"
+  },
+  {
+    "hiragana": "さ",
+    "romaji": "sa",
+    "english": "-"
+  },
+  {
+    "hiragana": "し",
+    "romaji": "shi",
+    "english": "(as in she)"
+  },
+  {
+    "hiragana": "す",
+    "romaji": "su",
+    "english": "-"
+  },
+  {
+    "hiragana": "せ",
+    "romaji": "se",
+    "english": "-"
+  },
+  {
+    "hiragana": "そ",
+    "romaji": "so",
+    "english": "-"
+  },
+  {
+    "hiragana": "た",
+    "romaji": "ta",
+    "english": "-"
+  },
+  {
+    "hiragana": "ち",
+    "romaji": "chi",
+    "english": "(as in cheese)"
+  },
+  {
+    "hiragana": "つ",
+    "romaji": "tsu",
+    "english": "-"
+  },
+  {
+    "hiragana": "て",
+    "romaji": "te",
+    "english": "-"
+  },
+  {
+    "hiragana": "と",
+    "romaji": "to",
+    "english": "-"
+  },
+  {
+    "hiragana": "な",
+    "romaji": "na",
+    "english": "-"
+  },
+  {
+    "hiragana": "に",
+    "romaji": "ni",
+    "english": "-"
+  },
+  {
+    "hiragana": "ぬ",
+    "romaji": "nu",
+    "english": "-"
+  },
+  {
+    "hiragana": "ね",
+    "romaji": "ne",
+    "english": "-"
+  },
+  {
+    "hiragana": "の",
+    "romaji": "no",
+    "english": "-"
+  },
+  {
+    "hiragana": "は",
+    "romaji": "ha",
+    "english": "(wa as particle)"
+  },
+  {
+    "hiragana": "ひ",
+    "romaji": "hi",
+    "english": "-"
+  },
+  {
+    "hiragana": "ふ",
+    "romaji": "fu",
+    "english": "(as in who, soft)"
+  },
+  {
+    "hiragana": "へ",
+    "romaji": "he",
+    "english": "(e as particle)"
+  },
+  {
+    "hiragana": "ほ",
+    "romaji": "ho",
+    "english": "-"
+  },
+  {
+    "hiragana": "ま",
+    "romaji": "ma",
+    "english": "-"
+  },
+  {
+    "hiragana": "み",
+    "romaji": "mi",
+    "english": "-"
+  },
+  {
+    "hiragana": "む",
+    "romaji": "mu",
+    "english": "-"
+  },
+  {
+    "hiragana": "め",
+    "romaji": "me",
+    "english": "-"
+  },
+  {
+    "hiragana": "も",
+    "romaji": "mo",
+    "english": "-"
+  },
+  {
+    "hiragana": "や",
+    "romaji": "ya",
+    "english": "-"
+  },
+  {
+    "hiragana": "ゆ",
+    "romaji": "yu",
+    "english": "-"
+  },
+  {
+    "hiragana": "よ",
+    "romaji": "yo",
+    "english": "-"
+  },
+  {
+    "hiragana": "ら",
+    "romaji": "ra",
+    "english": "(soft r, flap like in 'ladder')"
+  },
+  {
+    "hiragana": "り",
+    "romaji": "ri",
+    "english": "(soft r)"
+  },
+  {
+    "hiragana": "る",
+    "romaji": "ru",
+    "english": "(soft r)"
+  },
+  {
+    "hiragana": "れ",
+    "romaji": "re",
+    "english": "(soft r)"
+  },
+  {
+    "hiragana": "ろ",
+    "romaji": "ro",
+    "english": "(soft r)"
+  },
+  {
+    "hiragana": "わ",
+    "romaji": "wa",
+    "english": "-"
+  },
+  {
+    "hiragana": "を",
+    "romaji": "o",
+    "english": "(wo, used as particle)"
+  },
+  {
+    "hiragana": "ん",
+    "romaji": "n",
+    "english": "(syllabic nasal)"
+  },
+  {
+    "hiragana": "が",
+    "romaji": "ga",
+    "english": "-"
+  },
+  {
+    "hiragana": "ぎ",
+    "romaji": "gi",
+    "english": "-"
+  },
+  {
+    "hiragana": "ぐ",
+    "romaji": "gu",
+    "english": "-"
+  },
+  {
+    "hiragana": "げ",
+    "romaji": "ge",
+    "english": "-"
+  },
+  {
+    "hiragana": "ご",
+    "romaji": "go",
+    "english": "-"
+  },
+  {
+    "hiragana": "ざ",
+    "romaji": "za",
+    "english": "-"
+  },
+  {
+    "hiragana": "じ",
+    "romaji": "ji",
+    "english": "(as in jeans)"
+  },
+  {
+    "hiragana": "ず",
+    "romaji": "zu",
+    "english": "-"
+  },
+  {
+    "hiragana": "ぜ",
+    "romaji": "ze",
+    "english": "-"
+  },
+  {
+    "hiragana": "ぞ",
+    "romaji": "zo",
+    "english": "-"
+  },
+  {
+    "hiragana": "だ",
+    "romaji": "da",
+    "english": "-"
+  },
+  {
+    "hiragana": "ぢ",
+    "romaji": "ji",
+    "english": "(rare, same as じ)"
+  },
+  {
+    "hiragana": "づ",
+    "romaji": "zu",
+    "english": "(rare, same as ず)"
+  },
+  {
+    "hiragana": "で",
+    "romaji": "de",
+    "english": "-"
+  },
+  {
+    "hiragana": "ど",
+    "romaji": "do",
+    "english": "-"
+  },
+  {
+    "hiragana": "ば",
+    "romaji": "ba",
+    "english": "-"
+  },
+  {
+    "hiragana": "び",
+    "romaji": "bi",
+    "english": "-"
+  },
+  {
+    "hiragana": "ぶ",
+    "romaji": "bu",
+    "english": "-"
+  },
+  {
+    "hiragana": "べ",
+    "romaji": "be",
+    "english": "-"
+  },
+  {
+    "hiragana": "ぼ",
+    "romaji": "bo",
+    "english": "-"
+  },
+  {
+    "hiragana": "ぱ",
+    "romaji": "pa",
+    "english": "-"
+  },
+  {
+    "hiragana": "ぴ",
+    "romaji": "pi",
+    "english": "-"
+  },
+  {
+    "hiragana": "ぷ",
+    "romaji": "pu",
+    "english": "-"
+  },
+  {
+    "hiragana": "ぺ",
+    "romaji": "pe",
+    "english": "-"
+  },
+  {
+    "hiragana": "ぽ",
+    "romaji": "po",
+    "english": "-"
+  },
+  {
+    "hiragana": "ゃ",
+    "romaji": "ya (small)",
+    "english": "small ya (for combos like きゃ)"
+  },
+  {
+    "hiragana": "ゅ",
+    "romaji": "yu (small)",
+    "english": "small yu"
+  },
+  {
+    "hiragana": "ょ",
+    "romaji": "yo (small)",
+    "english": "small yo"
+  },
+  {
+    "hiragana": "っ",
+    "romaji": "tsu (small)",
+    "english": "sokuon (geminate consonant, doubles next sound)"
+  }
+]

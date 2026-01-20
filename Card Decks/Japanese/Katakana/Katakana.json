@@ -1,0 +1,407 @@
+[
+  {
+    "katakana": "ア",
+    "romaji": "a",
+    "english": "a (as in father)"
+  },
+  {
+    "katakana": "イ",
+    "romaji": "i",
+    "english": "i (as in machine)"
+  },
+  {
+    "katakana": "ウ",
+    "romaji": "u",
+    "english": "u (as in rule)"
+  },
+  {
+    "katakana": "エ",
+    "romaji": "e",
+    "english": "e (as in bed)"
+  },
+  {
+    "katakana": "オ",
+    "romaji": "o",
+    "english": "o (as in core)"
+  },
+  {
+    "katakana": "カ",
+    "romaji": "ka",
+    "english": "ka"
+  },
+  {
+    "katakana": "キ",
+    "romaji": "ki",
+    "english": "ki"
+  },
+  {
+    "katakana": "ク",
+    "romaji": "ku",
+    "english": "ku"
+  },
+  {
+    "katakana": "ケ",
+    "romaji": "ke",
+    "english": "ke"
+  },
+  {
+    "katakana": "コ",
+    "romaji": "ko",
+    "english": "ko"
+  },
+  {
+    "katakana": "サ",
+    "romaji": "sa",
+    "english": "sa"
+  },
+  {
+    "katakana": "シ",
+    "romaji": "shi",
+    "english": "shi (as in she)"
+  },
+  {
+    "katakana": "ス",
+    "romaji": "su",
+    "english": "su"
+  },
+  {
+    "katakana": "セ",
+    "romaji": "se",
+    "english": "se"
+  },
+  {
+    "katakana": "ソ",
+    "romaji": "so",
+    "english": "so"
+  },
+  {
+    "katakana": "タ",
+    "romaji": "ta",
+    "english": "ta"
+  },
+  {
+    "katakana": "チ",
+    "romaji": "chi",
+    "english": "chi (as in cheese)"
+  },
+  {
+    "katakana": "ツ",
+    "romaji": "tsu",
+    "english": "tsu"
+  },
+  {
+    "katakana": "テ",
+    "romaji": "te",
+    "english": "te"
+  },
+  {
+    "katakana": "ト",
+    "romaji": "to",
+    "english": "to"
+  },
+  {
+    "katakana": "ナ",
+    "romaji": "na",
+    "english": "na"
+  },
+  {
+    "katakana": "ニ",
+    "romaji": "ni",
+    "english": "ni"
+  },
+  {
+    "katakana": "ヌ",
+    "romaji": "nu",
+    "english": "nu"
+  },
+  {
+    "katakana": "ネ",
+    "romaji": "ne",
+    "english": "ne"
+  },
+  {
+    "katakana": "ノ",
+    "romaji": "no",
+    "english": "no"
+  },
+  {
+    "katakana": "ハ",
+    "romaji": "ha",
+    "english": "ha"
+  },
+  {
+    "katakana": "ヒ",
+    "romaji": "hi",
+    "english": "hi"
+  },
+  {
+    "katakana": "フ",
+    "romaji": "fu",
+    "english": "fu (as in who)"
+  },
+  {
+    "katakana": "ヘ",
+    "romaji": "he",
+    "english": "he"
+  },
+  {
+    "katakana": "ホ",
+    "romaji": "ho",
+    "english": "ho"
+  },
+  {
+    "katakana": "マ",
+    "romaji": "ma",
+    "english": "ma"
+  },
+  {
+    "katakana": "ミ",
+    "romaji": "mi",
+    "english": "mi"
+  },
+  {
+    "katakana": "ム",
+    "romaji": "mu",
+    "english": "mu"
+  },
+  {
+    "katakana": "メ",
+    "romaji": "me",
+    "english": "me"
+  },
+  {
+    "katakana": "モ",
+    "romaji": "mo",
+    "english": "mo"
+  },
+  {
+    "katakana": "ヤ",
+    "romaji": "ya",
+    "english": "ya"
+  },
+  {
+    "katakana": "ユ",
+    "romaji": "yu",
+    "english": "yu"
+  },
+  {
+    "katakana": "ヨ",
+    "romaji": "yo",
+    "english": "yo"
+  },
+  {
+    "katakana": "ラ",
+    "romaji": "ra",
+    "english": "ra (soft r)"
+  },
+  {
+    "katakana": "リ",
+    "romaji": "ri",
+    "english": "ri (soft r)"
+  },
+  {
+    "katakana": "ル",
+    "romaji": "ru",
+    "english": "ru (soft r)"
+  },
+  {
+    "katakana": "レ",
+    "romaji": "re",
+    "english": "re (soft r)"
+  },
+  {
+    "katakana": "ロ",
+    "romaji": "ro",
+    "english": "ro (soft r)"
+  },
+  {
+    "katakana": "ワ",
+    "romaji": "wa",
+    "english": "wa"
+  },
+  {
+    "katakana": "ヲ",
+    "romaji": "wo",
+    "english": "wo (o sound)"
+  },
+  {
+    "katakana": "ン",
+    "romaji": "n",
+    "english": "n (syllabic nasal)"
+  },
+  {
+    "katakana": "ガ",
+    "romaji": "ga",
+    "english": "ga"
+  },
+  {
+    "katakana": "ギ",
+    "romaji": "gi",
+    "english": "gi"
+  },
+  {
+    "katakana": "グ",
+    "romaji": "gu",
+    "english": "gu"
+  },
+  {
+    "katakana": "ゲ",
+    "romaji": "ge",
+    "english": "ge"
+  },
+  {
+    "katakana": "ゴ",
+    "romaji": "go",
+    "english": "go"
+  },
+  {
+    "katakana": "ザ",
+    "romaji": "za",
+    "english": "za"
+  },
+  {
+    "katakana": "ジ",
+    "romaji": "ji",
+    "english": "ji (as in jeans)"
+  },
+  {
+    "katakana": "ズ",
+    "romaji": "zu",
+    "english": "zu"
+  },
+  {
+    "katakana": "ゼ",
+    "romaji": "ze",
+    "english": "ze"
+  },
+  {
+    "katakana": "ゾ",
+    "romaji": "zo",
+    "english": "zo"
+  },
+  {
+    "katakana": "ダ",
+    "romaji": "da",
+    "english": "da"
+  },
+  {
+    "katakana": "ヂ",
+    "romaji": "ji",
+    "english": "ji (rare)"
+  },
+  {
+    "katakana": "ヅ",
+    "romaji": "zu",
+    "english": "zu (rare)"
+  },
+  {
+    "katakana": "デ",
+    "romaji": "de",
+    "english": "de"
+  },
+  {
+    "katakana": "ド",
+    "romaji": "do",
+    "english": "do"
+  },
+  {
+    "katakana": "バ",
+    "romaji": "ba",
+    "english": "ba"
+  },
+  {
+    "katakana": "ビ",
+    "romaji": "bi",
+    "english": "bi"
+  },
+  {
+    "katakana": "ブ",
+    "romaji": "bu",
+    "english": "bu"
+  },
+  {
+    "katakana": "ベ",
+    "romaji": "be",
+    "english": "be"
+  },
+  {
+    "katakana": "ボ",
+    "romaji": "bo",
+    "english": "bo"
+  },
+  {
+    "katakana": "パ",
+    "romaji": "pa",
+    "english": "pa"
+  },
+  {
+    "katakana": "ピ",
+    "romaji": "pi",
+    "english": "pi"
+  },
+  {
+    "katakana": "プ",
+    "romaji": "pu",
+    "english": "pu"
+  },
+  {
+    "katakana": "ペ",
+    "romaji": "pe",
+    "english": "pe"
+  },
+  {
+    "katakana": "ポ",
+    "romaji": "po",
+    "english": "po"
+  },
+  {
+    "katakana": "ァ",
+    "romaji": "a (small)",
+    "english": "small a (for combos like ファ)"
+  },
+  {
+    "katakana": "ィ",
+    "romaji": "i (small)",
+    "english": "small i"
+  },
+  {
+    "katakana": "ゥ",
+    "romaji": "u (small)",
+    "english": "small u"
+  },
+  {
+    "katakana": "ェ",
+    "romaji": "e (small)",
+    "english": "small e"
+  },
+  {
+    "katakana": "ォ",
+    "romaji": "o (small)",
+    "english": "small o"
+  },
+  {
+    "katakana": "ャ",
+    "romaji": "ya (small)",
+    "english": "small ya"
+  },
+  {
+    "katakana": "ュ",
+    "romaji": "yu (small)",
+    "english": "small yu"
+  },
+  {
+    "katakana": "ョ",
+    "romaji": "yo (small)",
+    "english": "small yo"
+  },
+  {
+    "katakana": "ッ",
+    "romaji": "tsu (small)",
+    "english": "sokuon (geminate consonant)"
+  },
+  {
+    "katakana": "ヴ",
+    "romaji": "vu",
+    "english": "vu"
+  }
+]
