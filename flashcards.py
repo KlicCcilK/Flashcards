@@ -6,7 +6,7 @@ from pathlib import Path
 class FlashcardApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Japanese Flashcards")
+        self.root.title("Flashcards, Inc")
         self.root.geometry("900x600")
         self.root.resizable(False, False)
 
@@ -16,31 +16,33 @@ class FlashcardApp:
 
         self.decks_dir = Path("Card Decks/Japanese")
 
-        self.label = tk.Label(root, text="Select a deck:", font=("Arial", 14))
+        self.label = tk.Label(root, text="Select a deck:", font=("Yu Gothic", 14))
         self.label.pack(pady=80)
 
-        self.deck_names = []
-        self.deck_paths = {}
+        self.json_files = []
+        self.json_paths = {}
         if self.decks_dir.exists():
-            for item in self.decks_dir.iterdir():
-                if item.is_dir():
-                    name = item.name
-                    self.deck_names.append(name)
-                    self.deck_paths[name] = item
+            for json_file in self.decks_dir.rglob("*.json"):
+                name = json_file.stem
+                display_name = name.replace("-", " ").replace("_", " ").title()
+                self.json_files.append(display_name)
+                self.json_paths[display_name] = json_file
 
-        if not self.deck_names:
-            messagebox.showerror("Error", "No decks found in Card Decks/Japanese/")
+        if not self.json_files:
+            messagebox.showerror("Error", "No .json files found in Card Decks/Japanese or its subfolders")
             root.quit()
             return
+
+        self.json_files.sort()
 
         self.selected_deck = tk.StringVar()
         self.deck_combo = ttk.Combobox(
             root,
             textvariable=self.selected_deck,
-            values=self.deck_names,
+            values=self.json_files,
             state="readonly",
-            font=("Arial", 12),
-            width=35
+            font=("Yu Gothic", 12),
+            width=40
         )
         self.deck_combo.pack(pady=20)
         self.deck_combo.current(0)
@@ -48,7 +50,7 @@ class FlashcardApp:
         self.load_btn = tk.Button(
             root,
             text="Load Deck",
-            font=("Arial", 14),
+            font=("Yu Gothic", 14),
             command=self.load_selected_deck,
             width=15,
             height=2
@@ -60,7 +62,6 @@ class FlashcardApp:
         self.card_label = None
 
     def get_length_based_font_size(self, text, is_front=False):
-        """Simple heuristic based on longest line length"""
         if not text.strip():
             return 60
 
@@ -68,12 +69,11 @@ class FlashcardApp:
         longest_line = max(lines, key=len)
         char_count = len(longest_line)
 
-        # Debug print – remove or comment out when happy
         print(f"Text: '{text}' | Longest line chars: {char_count} | is_front={is_front}")
 
         if is_front:
-            if char_count <=2:
-                return 100  # your preferred size for kana front sides
+            if char_count <= 2:
+                return 100
             if char_count <= 15:
                 return 60
             elif char_count <= 30:
@@ -81,9 +81,8 @@ class FlashcardApp:
             elif char_count <= 40:
                 return 44
             else:
-                return 30  # small but readable
+                return 30
 
-        # Back side: more aggressive shrinking for longer lines
         if char_count <= 15:
             return 52
         elif char_count <= 30:
@@ -91,18 +90,16 @@ class FlashcardApp:
         elif char_count <= 40:
             return 38
         else:
-            return 25  # small but readable
+            return 25
 
     def load_selected_deck(self):
-        deck_name = self.selected_deck.get()
-        if not deck_name:
+        display_name = self.selected_deck.get()
+        if not display_name:
             return
 
-        deck_folder = self.deck_paths[deck_name]
-        json_path = deck_folder / f"{deck_name}.json"
-
-        if not json_path.exists():
-            messagebox.showerror("Error", f"Could not find {json_path.name} in {deck_name}")
+        json_path = self.json_paths.get(display_name)
+        if not json_path or not json_path.exists():
+            messagebox.showerror("Error", f"Could not find file for {display_name}")
             return
 
         try:
@@ -111,7 +108,7 @@ class FlashcardApp:
             if not self.cards:
                 raise ValueError("Deck is empty")
         except Exception as e:
-            messagebox.showerror("Load Error", f"Failed to load deck:\n{e}")
+            messagebox.showerror("Load Error", f"Failed to load {json_path.name}:\n{e}")
             return
 
         self.label.pack_forget()
@@ -132,7 +129,7 @@ class FlashcardApp:
         tk.Label(
             main_frame,
             text=f"Deck: {self.selected_deck.get()}",
-            font=("Arial", 12),
+            font=("Yu Gothic", 12),
             bg="#f0f0f0"
         ).pack(anchor="n", pady=(10, 20))
 
@@ -162,7 +159,7 @@ class FlashcardApp:
         button_bar.pack(side="bottom", fill="x", pady=(20, 10))
         button_bar.pack_propagate(False)
 
-        btn_font = ("Arial", 16, "bold")
+        btn_font = ("Yu Gothic", 16, "bold")
 
         tk.Button(
             button_bar, text="Previous", font=btn_font, width=12, height=2,
@@ -186,7 +183,7 @@ class FlashcardApp:
         card = self.cards[self.current_index]
         
         if self.showing_front:
-            text = card.get("hiragana", card.get("katakana", "?")).strip()
+            text = card.get("radical", "?").strip()   # ← changed to "radical" key
         else:
             romaji = card.get("romaji", "").strip()
             english = card.get("english", "").strip()
@@ -197,8 +194,8 @@ class FlashcardApp:
 
         self.card_label.config(
             text=text,
-            font=("Arial", font_size, "bold"),
-            wraplength=680   # slightly reduced to force earlier wrapping
+            font=("Yu Gothic", font_size, "bold"),
+            wraplength=680
         )
 
     def flip_card(self):
